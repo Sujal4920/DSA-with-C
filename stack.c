@@ -1,8 +1,8 @@
 #include <stdio.h>
- int main()
+int main()
 {
     int a[10] = {0}, i, top = -1, max = 10, n, x;
-    //system ("cls");
+    // system ("cls");
     printf("\n\tMENU\n1.PUSH\n2.POP\n3.DISPLAY\n4.EXIT\n");
     do
     {
@@ -33,7 +33,7 @@
             {
                 printf("The elements of the stack are :\n");
                 for (i = 0; i <= top; i++)
-                                 printf("%d\n", a[i]);
+                    printf("%d\n", a[i]);
             }
             break;
         case 4:
